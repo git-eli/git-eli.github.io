@@ -127,7 +127,7 @@ nav {
 .mainCol {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
+  align-items: center;
   justify-content: center;
 
   padding-top: 2vh;
@@ -153,27 +153,27 @@ nav {
 
 .mainCol h1 {
   text-align: left;
-  font-size: x-large;
+  font-size: 26;
 
   margin-top: 0px;
   margin-bottom: 25px;
 }
 
 .mainCol p {
-  font-size: 16px;
+  font-size: 20px;
   text-align: justify;
 }
 
 .contactCol h1 {
   text-align: left;
-  font-size: x-large;
+  font-size: 50;
 
   margin-top: 0px;
   margin-bottom: 25px;
 }
 
 .contactCol p {
-  font-size: 16px;
+  font-size: 26px;
   text-align: justify;
 }
 
@@ -354,6 +354,23 @@ footer {
   cursor: pointer;
 }
 
+@media (max-width: 1500px) {
+  .mainCol h1 {
+    font-size: x-large;
+  }
+
+  .mainCol p {
+    font-size: 16px;
+  }
+
+  .contactCol h1 {
+    font-size: 20;
+  }
+
+  .contactCol p {
+    font-size: 20px;
+  }
+}
 @media (max-width: 1200px) {
   .grid {
     display: grid;
@@ -481,7 +498,7 @@ footer {
     display: block;
   }
 
-  .contactCol:nth-child(2) {
+  #contactROT {
     display: none;
   }
 
